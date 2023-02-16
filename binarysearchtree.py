@@ -1,3 +1,4 @@
+
 class BinarySearchTree:
     def __init__(self,data):
         self.data = data
@@ -89,8 +90,8 @@ def build_tree(elements):
     return root
 
 if __name__ == '__main__':
-    numbers = [17,4,1,20,9,23,34]
-    numbers_tree = build_tree(numbers)
+    array=[5,64,2,4,3,1,8,6]
+    numbers_tree = build_tree(array)
     print(numbers_tree.in_order_traversal())
     print(numbers_tree.search(1))
     numbers_tree = build_tree([17, 4, 1, 20, 9, 23, 18, 34])
